@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'DIGITAL';
+    src: url('/calculadora/font/DIGITAL.TTF');
+}
+
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: gray;
+    width: 300px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.pantalla{
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 2.5em;
+    font-family: 'DIGITAL';
+    display: flex;
+    flex-direction: column;
+}
+
+
+.teclado{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+    cursor: pointer;
+   
+}
+
+.operadores{
+    width: 100%;
+    height: 70px;
+    background-color: darkgrey  ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.teclado-numerico{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: blue; */
+    height: 200px;
+    width: 230px;
+    justify-content: space-between;
+}
+
+.tecla{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid  black */
+}
+
+.igual{
+    background-color: orange;
+    height: 281px;
+    border-radius: 0 0 10px;
+}
+
+p{
+    color: white;
+}
